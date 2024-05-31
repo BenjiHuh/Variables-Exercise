@@ -13,7 +13,9 @@
             Console.WriteLine("Hello, World!" + $" \n My name is {name} and I am {age} years old.\n");
             Console.WriteLine($"My favorite letter is {favoriteChar}");
             Console.WriteLine($"It is {isFullstack} that I am currently bootcamping for the summer of 2024, to which I have " +
-                $"learned to print {pi} using string-interpolation and declare decimals like {longerPi} in addition to floats and doubles.");      
+                $"learned to print {pi} using string-interpolation and declare decimals like {longerPi} in addition to floats and doubles.");
+            Console.WriteLine("What's your name?");
+            Console.WriteLine("Hello {0}! Hope this little program was any bit interesting.", Console.ReadLine());
         }
     }
 }
